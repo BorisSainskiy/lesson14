@@ -1,0 +1,102 @@
+#container {
+  width: 800px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-linear-gradient(61deg, #ff512f 0%, #dd2476 100%);
+  background-image: -o-linear-gradient(61deg, #ff512f 0%, #dd2476 100%);
+  background-image: linear-gradient(29deg, #ff512f 0%, #dd2476 100%);
+  margin: 0 auto;
+  margin-top: 100px; }
+  #container form {
+    width: 460px;
+    height: 470px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin: auto; }
+    #container form header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%; }
+      #container form header img {
+        -o-object-fit: contain;
+        object-fit: contain;
+        margin-left: 30px;
+        margin-right: 10px; }
+      #container form header h2 {
+        color: #1b1c1d;
+        font-family: Arial;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 20px; }
+    #container form #text1 {
+      width: 395px;
+      height: 33px;
+      color: #7a7b7f;
+      font-family: Arial;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      margin: 0 auto; }
+    #container form a {
+      color: #ea355a; }
+    #container form #info {
+      width: 450px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      margin-top: 35px;
+      margin-left: 30px; }
+      #container form #info .halfOfForm {
+        width: 192px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: #f0f0f0; }
+      #container form #info .halfOfForm:not(last-cgild) {
+        margin-right: 15px; }
+      #container form #info .fullOfForm {
+        width: 400px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: #f0f0f0; }
+      #container form #info input {
+        outline: none;
+        margin-bottom: 15px;
+        border: none; }
+      #container form #info input::-webkit-input-placeholder {
+        padding-left: 10px;
+        color: #7a7b7f;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px; }
+      #container form #info button {
+        width: 400px;
+        height: 50px;
+        -webkit-box-shadow: 0 3px 0 #bd1962;
+        box-shadow: 0 3px 0 #bd1962;
+        background-color: #ea355a;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        border: none;
+        border-radius: 5px; }
+    #container form #text2 {
+      width: 384px;
+      height: 31px;
+      color: #7a7b7f;
+      font-family: "Arial MT";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      margin: 0 auto;
+      margin-top: 30px; }
