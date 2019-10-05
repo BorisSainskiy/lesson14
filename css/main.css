@@ -55,23 +55,24 @@
       margin-top: 35px;
       margin-left: 30px; }
       #container form #info .halfOfForm {
-        width: 192px;
+        width: 178px;
         height: 40px;
         border-radius: 4px;
-        background-color: #f0f0f0; }
+        background-color: #f0f0f0;
+        padding-left: 15px; }
       #container form #info .halfOfForm:not(last-cgild) {
         margin-right: 15px; }
       #container form #info .fullOfForm {
-        width: 400px;
+        width: 386px;
         height: 40px;
         border-radius: 4px;
-        background-color: #f0f0f0; }
+        background-color: #f0f0f0;
+        padding-left: 15px; }
       #container form #info input {
         outline: none;
         margin-bottom: 15px;
         border: none; }
       #container form #info input::-webkit-input-placeholder {
-        padding-left: 10px;
         color: #7a7b7f;
         font-family: Arial;
         font-size: 14px;

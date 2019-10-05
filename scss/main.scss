@@ -57,10 +57,11 @@
       margin-left: 30px;
 
       .halfOfForm {
-        width: 192px;
+        width: 178px;
         height: 40px;
         border-radius: 4px;
         background-color: #f0f0f0;
+        padding-left: 15px;
       }
 
       .halfOfForm:not(last-cgild) {
@@ -68,10 +69,11 @@
       }
 
       .fullOfForm {
-        width: 400px;
+        width: 386px;
         height: 40px;
         border-radius: 4px;
         background-color: #f0f0f0;
+        padding-left: 15px;
       }
 
       input {
@@ -81,7 +83,6 @@
       }
 
       input::-webkit-input-placeholder {
-        padding-left: 10px;
         color: #7a7b7f;
         font-family: Arial;
         font-size: 14px;
